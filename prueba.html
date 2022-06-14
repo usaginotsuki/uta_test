@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title> UTA </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script type="text/javascript" src="js/operacionSuma.js"></script>
+    <script type="text/javascript" src="js/operacionResta.js"></script>
+    <script type="text/javascript" src="js/operacionMulti.js"></script>
+    <script type="text/javascript" src="js/operacionDivi.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="imagen/imagenU.png" width="%100" height="200">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Contactos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form>
+            <h3>OPERACIONES ENTRE DOS NÚMEROS</h3></br>
+            Ingrese Primer Número: </br> 
+            <input type="text" id="n1" name="n1"></br></br>  
+            Ingrese Segundo Número: </br>
+            <input type="text" id="n2" name="n2"> </br> </br>
+            <input type="button" id="suma" onclick="sumarNumeros()" value="+">
+            <input type="button" id="resta" onclick="restarNumeros()" value="-">
+            <input type="button" id="multi" onclick="multiNumeros()" value="x">
+            <input type="button" id="divi" onclick="diviNumeros()" value="÷"></br> </br>
+            <p id="resp"></p>
+        </form>
+    </section>
+    <footer>
+    
+        ALLAUCA YADIRA
+    </footer>
+
+</body>
+
+</html>
